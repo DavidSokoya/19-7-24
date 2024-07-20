@@ -9,3 +9,22 @@ function removeChar(str){
       newStr.pop()
  return  newStr.join('')
 };
+
+// 2. String repeat
+// Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+
+// Examples (input -> output)
+// 6, "I"     -> "IIIIII"
+// 5, "Hello" -> "HelloHelloHelloHelloHello"
+
+function repeatStr (n, s) {
+  let c = '';
+  for (let i = 0; i < n; i++){
+   c += s
+  }
+return c
+}
+
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
